@@ -6,8 +6,8 @@ erDiagram
           CUSTOMER ||--o{ INVOICE : "liable for"
           DELIVERY-ADDRESS ||--o{ ORDER : receives
           PCAP }|..|{ MUTINY-PREP : input
-          end
-          ```
+         
+```
           
           
           
