@@ -1,15 +1,15 @@
 # HelloWorld
 ```mermaid
 erDiagram 
-          PCAP ||..|| MUTINY-PREP : input
-           MUTINY-PREP ||..|| fuzzer : yields
-          fuzzer ||..|| MUTINY : input
-          MUTINY ||..|| IoT-Device : attacks
+          PCAP ||--|| MUTINY-PREP : input
+           MUTINY-PREP ||--|| fuzzer : yields
+          fuzzer ||--|| MUTINY : input
+          MUTINY ||--|| IoT-Device : attacks
          
 ```
 ```mermaid
 erDiagram 
-          PCAP ||..|| MUTINY-PREP : input
+          PCAP ||--|| MUTINY-PREP : input
            MUTINY-PREP ||..|| fuzzer : yields
           fuzzer ||..|| MUTINY-1: input
           fuzzer ||..|| MUTINY-2: input
