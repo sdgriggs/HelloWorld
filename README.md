@@ -5,7 +5,7 @@ erDiagram
           CUSTOMER ||--o{ ORDER : places
           CUSTOMER ||--o{ INVOICE : "liable for"
           DELIVERY-ADDRESS ||--o{ ORDER : receives
-          PCAP }|..|{ MUTINY PREP : input
+          PCAP }|..|{ MUTINY-PREP : input
           ```
           
           
