@@ -1,6 +1,10 @@
 # HelloWorld
 ```mermaid
-erDiagram       
+erDiagram 
+          CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+          CUSTOMER ||--o{ ORDER : places
+          CUSTOMER ||--o{ INVOICE : "liable for"
+          DELIVERY-ADDRESS ||--o{ ORDER : receives
           PCAP }|..|{ MUTINY PREP : input
           MUTINY PREP }|..|{ .fuzzer : yeilds
           .fuzzer }|..|{ MUTINY : input
